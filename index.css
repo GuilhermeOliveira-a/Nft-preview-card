@@ -58,7 +58,7 @@
 
     div{
         
-        align-items: baseline;
+        align-items: center;
         display: flex;
     }
 
@@ -67,7 +67,8 @@
         width: 90%;
         display: flex;
         justify-content: space-between;
-        align-items: baseline;
+        padding-bottom: 10px;
+
     }
     
     #eth{
@@ -107,4 +108,30 @@
     #destaque{
         color: var(--White);
     }
+}
+
+/* Web CSS */
+
+body{
+    background-color: var(--AzulEscuro);
+    padding-top: 20vh;
+}
+
+
+main{
+    border-radius: 20px;
+    background-color: var(--AzulMedio);
+    margin: auto;
+    width: 20%;
+}
+
+#imgPrincipal{
+    padding-top: 6%;
+    text-align: center;
+    margin: auto;
+}
+
+#imgEquilibrium{
+    border-radius: 15px;
+    width: 90%;
 }
