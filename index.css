@@ -15,6 +15,103 @@
     --White: hsl(0, 0%, 100%);
 }
 
+/* Web CSS */
+
+body{
+    background-color: var(--AzulEscuro);
+    padding-top: 20vh;
+}
+
+
+main{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: var(--AzulMedio);
+    margin: auto;
+    width: 22%;
+}
+
+#imgPrincipal{
+    padding-top: 6%;
+    text-align: center;
+    margin: auto;
+}
+
+#imgEquilibrium{
+    border-radius: 9px;
+    width: 90%;
+}
+
+#nome{
+    font-size: 21px;
+    font-family: Outfit;
+    padding: 6%;
+    text-align: left;
+    color: var(--White);
+}
+
+#description{
+    text-align: inherit;
+    font-weight: 300;
+    line-height: 23px;
+    color: var(--Softblue);
+    padding-left: 6%;
+    padding-bottom: 6%;
+}
+
+div{
+    
+    align-items: center;
+    display: flex;
+}
+
+#values{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+
+}
+
+#eth{
+    color: var(--Cyan);
+}
+
+h2{
+    
+    color: var(--Softblue);
+    padding-left: 10px;
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: Outfit;
+}
+hr{
+    border-color: var(--AzulClaro);
+    width: 90%;
+}
+
+footer{
+    padding-bottom: 6%;
+    padding-top: 6%;
+    margin: auto;
+    width: 90%;
+    align-items: center;
+    display: flex;
+}
+
+#foto{
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--White);
+    width: 30px;
+}
+
+#destaque{
+    color: var(--White);
+}
+
 @media (max-width:375px) {
     body {
         padding-top: 25%;
@@ -110,28 +207,3 @@
     }
 }
 
-/* Web CSS */
-
-body{
-    background-color: var(--AzulEscuro);
-    padding-top: 20vh;
-}
-
-
-main{
-    border-radius: 20px;
-    background-color: var(--AzulMedio);
-    margin: auto;
-    width: 20%;
-}
-
-#imgPrincipal{
-    padding-top: 6%;
-    text-align: center;
-    margin: auto;
-}
-
-#imgEquilibrium{
-    border-radius: 15px;
-    width: 90%;
-}
